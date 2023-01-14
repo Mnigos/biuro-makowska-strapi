@@ -8,6 +8,7 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
+    "generate": "strapi generate",
     "prepare": "husky install",
     "lint": "yarn lint:js",
     "lint:fix": "yarn format && yarn lint:js --fix",
@@ -35,6 +36,7 @@
     "prettier": "^2.8.2"
   },
   "dependencies": {
+    "@strapi/plugin-graphql": "^4.5.6",
     "@strapi/plugin-i18n": "4.5.6",
     "@strapi/plugin-users-permissions": "4.5.6",
     "@strapi/strapi": "4.5.6",

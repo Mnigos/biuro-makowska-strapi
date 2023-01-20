@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_landing_page_landing_page_cards",
+  "info": {
+    "displayName": "landing-page-card"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

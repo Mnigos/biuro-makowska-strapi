@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_companies",
+  "info": {
+    "singularName": "about-company",
+    "pluralName": "about-companies",
+    "displayName": "O Firmie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.landing-page-card"
+    }
+  }
+}

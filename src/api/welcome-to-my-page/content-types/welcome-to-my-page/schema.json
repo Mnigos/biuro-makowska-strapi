@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "welcome_to_my_pages",
+  "info": {
+    "singularName": "welcome-to-my-page",
+    "pluralName": "welcome-to-my-pages",
+    "displayName": "Witam na mojej stronie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.landing-page-card"
+    }
+  }
+}

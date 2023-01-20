@@ -1,9 +1,9 @@
 /**
- * witam-na-mojej-stronie router
+ * welcome-to-my-page router
  */
 
 import { factories } from '@strapi/strapi'
 
 export default factories.createCoreRouter(
-  'api::witam-na-mojej-stronie.witam-na-mojej-stronie'
+  'api::welcome-to-my-page.welcome-to-my-page'
 )

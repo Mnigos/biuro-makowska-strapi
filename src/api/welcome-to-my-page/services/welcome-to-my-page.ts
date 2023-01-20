@@ -1,9 +1,9 @@
 /**
- * witam-na-mojej-stronie service
+ * welcome-to-my-page service
  */
 
 import { factories } from '@strapi/strapi'
 
 export default factories.createCoreService(
-  'api::witam-na-mojej-stronie.witam-na-mojej-stronie'
+  'api::welcome-to-my-page.welcome-to-my-page'
 )

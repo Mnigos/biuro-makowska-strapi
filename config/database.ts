@@ -7,7 +7,7 @@ export default ({ env }) => ({
       database: env('PGDATABASE', 'strapi'),
       user: env('PGUSER', 'strapi'),
       password: env('PGPASSWORD', 'password'),
-      ssl: env.bool(true),
+      ssl: { rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false) },
     },
   },
 })

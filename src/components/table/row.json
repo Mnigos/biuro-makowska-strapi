@@ -1,14 +1,16 @@
 {
   "collectionName": "components_table_rows",
   "info": {
-    "displayName": "Row"
+    "displayName": "Row",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "cell": {
+    "cells": {
       "type": "component",
       "repeatable": true,
-      "component": "table.cell"
+      "component": "table.cell",
+      "required": true
     }
   }
 }

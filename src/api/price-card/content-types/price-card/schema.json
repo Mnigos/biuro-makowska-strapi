@@ -14,7 +14,7 @@
     "header": {
       "type": "string"
     },
-    "table": {
+    "tables": {
       "type": "component",
       "repeatable": true,
       "component": "table.table"

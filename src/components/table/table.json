@@ -8,10 +8,11 @@
     "header": {
       "type": "string"
     },
-    "column": {
+    "columns": {
       "type": "component",
       "repeatable": true,
-      "component": "table.column"
+      "component": "table.column",
+      "required": true
     }
   }
 }

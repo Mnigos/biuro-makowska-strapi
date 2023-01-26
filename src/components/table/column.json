@@ -5,10 +5,11 @@
   },
   "options": {},
   "attributes": {
-    "row": {
+    "rows": {
       "type": "component",
       "repeatable": true,
-      "component": "table.row"
+      "component": "table.row",
+      "required": true
     }
   }
 }

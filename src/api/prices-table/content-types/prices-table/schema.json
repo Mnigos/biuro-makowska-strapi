@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "price_cards",
+  "collectionName": "prices_tables",
   "info": {
-    "singularName": "price-card",
-    "pluralName": "price-cards",
-    "displayName": "Price Card"
+    "singularName": "prices-table",
+    "pluralName": "prices-tables",
+    "displayName": "Prices Table"
   },
   "options": {
     "draftAndPublish": true
@@ -14,7 +14,7 @@
     "header": {
       "type": "string"
     },
-    "tables": {
+    "table": {
       "type": "component",
       "repeatable": true,
       "component": "table.table"

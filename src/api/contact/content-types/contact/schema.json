@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "contact"
+    "displayName": "contact",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,12 @@
     },
     "phone": {
       "type": "string"
+    },
+    "siedziba_1": {
+      "type": "richtext"
+    },
+    "siedziba_2": {
+      "type": "richtext"
     }
   }
 }
